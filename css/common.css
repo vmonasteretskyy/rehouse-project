@@ -769,7 +769,7 @@ header.header {
 
 /* FORM */
 .formsection {
-    padding: 110px 0 0 0;
+    padding: 110px 0 130px 0;
 }
 
 .formsection form {
@@ -799,7 +799,7 @@ header.header {
     box-sizing: border-box;
 }
 
-.controlsinput {
+.controls input {
     outline: none;
     width: 100%;
     max-width: 517px;
@@ -826,6 +826,7 @@ header.header {
 .controls {
     text-align: left;
     position: relative;
+    margin: 0 auto 45px;
 }
 
 
@@ -873,12 +874,94 @@ header.header {
     line-height: 17px;
 }
 
-.controls input[type="text"] {
+.controls input[type="text"],
+.controls input[type="email"],
+.controls input[type="tel"] {
     width: 100%;
     max-width: 517px;
     height: 36px;
     border: none;
     border-bottom: 1px solid #000;
+}
+
+.formsection form input[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 56px;
+    background-color: #D0021B;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.formsection form input[type="submit"]:hover {
+    box-shadow: 0 10px 10px #c6bbbd;
+}
+
+.after-before {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 70px 0 188px 0;
+}
+
+.twentytwenty-container {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+
+.after-before .toptext {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    max-width: 570px;
+    margin: 0 auto 28px;
+    text-align: center;
+}
+
+.twentytwenty-handle .twentytwenty-left-arrow,
+.twentytwenty-handle .twentytwenty-right-arrow {
+    display: none;
+}
+
+.twentytwenty-handle {
+    width: 79px;
+    height: 79px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: url(../image/icons/double-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px auto;
+    margin-left: -39.5px;
+}
+
+.twentytwenty-horizontal .twentytwenty-handle:before {
+    margin-bottom: 38px;
+}
+
+.twentytwenty-horizontal .twentytwenty-handle:after {
+    margin-top: 38px;
 }
 
 
@@ -888,6 +971,18 @@ header.header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* 70 */
 
 
 /* FORM  END*/
