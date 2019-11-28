@@ -1024,6 +1024,38 @@ header.header {
     align-items: center;
 }
 
+.cost-project {
+    width: 31.5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #fff;
+    padding: 68px 0 68px 0;
+    border: 1px solid #D0021B;
+    box-sizing: border-box;
+}
+
+.cost-project.green {
+    width: 32.8%;
+    background-color: #D0021B;
+    padding: 63px 0 88px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* COST END */
 
 
