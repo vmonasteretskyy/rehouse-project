@@ -583,7 +583,251 @@
         text-align: center;
     }
 
+    .chooseus__topsect {
+        margin-bottom: 60px;
+    }
 
+    .choose__picbox {
+        width: 99px;
+        height: 99px;
+        margin-bottom: 18px;
+    }
+
+    .choose-box {
+        text-align: center;
+    }
+
+    .choose__textbox {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .choose__textbox .descr {
+        font-size: 14px;
+    }
+
+    .slide__link,
+    .howworking__coltext a,
+    .formsection form input[type="submit"],
+    .choose-content>a {
+        width: 100%;
+        max-width: 300px;
+        height: 56px;
+        font-size: 14px;
+    }
+
+    .howworking__coltext .step {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .howworking__coltext .title {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .howworking__coltext {
+        margin-top: 30px !important;
+    }
+
+    .howworking__coltext ul li {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .howworking__coltext ul li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .howworking__coltext a {
+        margin: 30px auto 0;
+        display: flex;
+    }
+
+    .howworking__row:not(:last-child) {
+        margin-bottom: 70px;
+    }
+
+    .controls {
+        width: 86%;
+    }
+
+    .twentytwenty-container {
+        height: 250px !important;
+    }
+
+    .twentytwenty-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .twentytwenty-handle {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:before {
+        margin-bottom: 30px;
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:after {
+        margin-top: 30px;
+    }
+
+    .costproject {
+        padding-top: 95px;
+    }
+
+    .costproject h4 {
+        max-width: 300px;
+        margin: 0 auto 35px;
+    }
+
+    .cost-project.green {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .costproject__container {
+        width: 100%;
+    }
+
+    .costproject {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cost__line {
+        padding: 23px 5px;
+        font-size: 15px;
+    }
+
+    .cost__title,
+    .cost-project.green .cost__title {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .cost-project {
+        margin-bottom: 20px;
+    }
+
+    .cost-project {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .costproject__container .cost-project:first-child,
+    .costproject__container .cost-project:nth-child(2),
+    .costproject__container .cost-project:nth-child(3) {
+        order: initial;
+    }
+
+    footer.footer {
+        padding: 50px 15px 0 15px;
+    }
+
+    footer.footer .footerbottompic {
+        position: relative;
+    }
+
+    .footer__container {
+        width: 100%;
+    }
+
+    .footer__leftbox,
+    .footer__rightbox {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer__rightbox {
+        order: 1;
+    }
+
+    .footer__leftbox {
+        order: 2;
+    }
+
+    .footer__rightboxinfo,
+    .footer__rightboxinfo {
+        display: block;
+        width: 100%;
+    }
+
+    .footer__rightbox {
+        display: block;
+    }
+
+    footer.footer {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+
+    .footer__rightboxinfo .title {
+        font-size: 23px;
+    }
+
+    .footer__rightboxinfo a {
+        font-size: 20px;
+    }
+
+    .footer__rightboxinfo:first-child {
+        margin-bottom: 50px;
+    }
+
+    .footer__rightboxinfo:nth-child(2) {
+        margin-bottom: 135px;
+    }
+
+    .footer__logo img {
+        width: 85px;
+    }
+
+    .footer__leftbox {
+        text-align: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 30px;
+    }
+
+    .footer__leftbox p {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer.footer .footerbottompic {
+        max-width: calc(100% + 40px);
+        margin-left: -20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .choose__textbox .descr {
+        max-width: 100%;
+    }
 
     .ourworks,
     .chooseus,
@@ -604,5 +848,72 @@
     h3 {
         font-size: 25px;
         line-height: 38px;
+    }
+
+    .formsection,
+    .after-before {
+        padding-top: 120px;
+    }
+
+    .formsection form .title,
+    .costproject h4 {
+        font-size: 25px;
+    }
+
+    .formsection form .title {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media(max-width: 365.8px) {
+
+    .cost__title,
+    .cost-project.green .cost__title {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .cost__descr {
+        min-height: initial;
+        margin-bottom: 20px;
+    }
+
+    .cost-project.green,
+    .cost-project {
+        padding: 30px 0 50px 0;
+    }
+
+    .slide__text h2 {
+        line-height: 40px;
+        font-size: 24px;
+    }
+
+    .slide__link,
+    .howworking__coltext a,
+    .formsection form input[type="submit"],
+    .choose-content>a {
+        max-width: 270px;
+        height: 50px;
+    }
+
+    .formsection,
+    .after-before,
+    .costproject {
+        padding-top: 80px;
+    }
+
+    .formsection form .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    footer.footer {
+        padding-top: 60px;
+    }
+
+    .footer__rightboxinfo:nth-child(2) {
+        margin-bottom: 80px;
     }
 }
