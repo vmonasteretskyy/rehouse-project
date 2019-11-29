@@ -1002,6 +1002,8 @@ header.header {
 /* COST */
 .costproject {
     position: relative;
+    padding-bottom: 150px;
+
 }
 
 .costproject__container {
@@ -1035,6 +1037,7 @@ header.header {
     padding: 68px 0 68px 0;
     border: 1px solid #D0021B;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .cost-project.green {
@@ -1043,20 +1046,233 @@ header.header {
     padding: 63px 0 88px 0;
 }
 
+.cost__beftitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
 
+.cost__title {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 0 27px 0;
+    color: #D0021B;
+}
 
+.cost__descr {
+    max-width: 380px;
+    margin: 0 auto 38px;
+    font-size: 15px;
+    font-weight: 300;
+    min-height: 46px;
+}
 
+.cost__line {
+    color: #D0021B;
+    background-color: #fae5e7;
+    margin: 0 0 39px 0;
+    font-size: 15px;
+    padding: 22px 0;
+}
 
+.cost__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    width: 300px;
+    height: 56px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border: 2px solid #000;
+}
 
+.cost__btn:hover {
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 10px 10px #c6c6c6;
+}
 
+.cost-project.green .cost__title {
+    color: #fff;
+    margin-bottom: 46px;
+}
 
+.cost-project.green .cost__descr {
+    color: #fff;
+}
 
+.cost-project.green .cost__line {
+    background-color: #dc4254;
+    color: #fff;
+}
 
+.cost-project.green .cost__btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}
 
-
-
+.cost-project.green .cost__btn:hover {
+    box-shadow: none;
+    background-color: #D0021B;
+    color: #fff;
+    box-shadow: 0 10px 10px #a73939;
+}
 
 /* COST END */
+/* footer */
+footer.footer {
+    padding: 50px 0 65px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__container {
+    margin: 0 auto;
+    width: 86.5%;
+}
+
+.footer__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.footer__leftbox {
+    -ms-flex: 0 0 42.6%;
+    flex: 0 0 42.6%;
+    max-width: 42.6%;
+    box-sizing: border-box;
+}
+
+.footer__rightbox {
+    -ms-flex: 0 0 57.4%;
+    flex: 0 0 57.4%;
+    max-width: 57.4%;
+    box-sizing: border-box;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.footer__leftbox p {
+    max-width: 270px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 28px;
+    margin: 0;
+}
+
+.footer__social {
+    padding: 0;
+    margin: 45px 0 55px 0;
+    list-style-type: none;
+}
+
+.footer__social li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__social li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer__social li a {
+    text-decoration: none;
+
+}
+
+.footer__social li a svg {
+    max-width: 20px;
+}
+
+.footer__social li a svg path {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.footer__social li a svg:hover path {
+    fill: #D0021B;
+}
+
+.footer__rightboxinfo {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer__rightboxinfo:first-child {
+    margin-right: 30%;
+}
+
+.footer__rightboxinfo .title {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.footer__rightboxinfo a {
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    text-decoration: none;
+    color: #666;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.footer__rightboxinfo a:hover {
+    color: #D0021B;
+}
+
+footer.footer .footerbottompic {
+    position: absolute;
+    bottom: -10px;
+    right: -5px;
+}
+
+.showmore-work {
+    display: none;
+}
+
+.showmore-work span {
+    text-decoration: underline;
+}
+
+/* footer END*/
+
+
 
 
 

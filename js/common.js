@@ -11,8 +11,38 @@ $(document).ready(function () {
         infinite: true,
         fade: true,
         speed: 1400,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false
+                }
+            }
+        ]
     });
     // main big slider end
+    // see more button (tablet)
+    $('.showmore-work').click(function () {
+        $('.work-row .work-col:nth-child(n + 5)').toggle();
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // label animation
     (function ($) {

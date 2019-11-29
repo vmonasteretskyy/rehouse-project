@@ -1,0 +1,608 @@
+@media(max-width: 1550.8px) {
+    header.header {
+        height: 80px;
+    }
+
+    .bigslider,
+    .bigslider__slide.slick-slide {
+        height: calc(100vh - 100px);
+    }
+
+    h3 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .whoverbox__title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .whoverbox__descr {
+        margin-bottom: 35px;
+    }
+
+    .workbox__hoverbox {
+        padding: 9% 10%;
+    }
+
+
+    .howworking-sect .howworking__row:nth-child(odd) .howworking__coltext {
+        padding-left: 70px;
+    }
+
+    .howworking-sect .howworking__row:nth-child(even) .howworking__coltext {
+        padding-right: 70px;
+    }
+
+    .howworking__row:after {
+        width: 450px;
+        height: 450px;
+        bottom: -45px;
+    }
+
+    .formsection form .title,
+    .costproject h4 {
+        font-size: 26px;
+    }
+
+    footer.footer {
+        padding-bottom: 25px;
+    }
+
+
+}
+
+@media(max-width: 1440.8px) {
+
+    .cost__title,
+    .cost-project.green .cost__title {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .cost__descr {
+        font-size: 14px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .cost__line {
+        padding: 16px 0;
+    }
+
+    .cost__btn {
+        width: 280px;
+        height: 50px;
+    }
+
+    footer.footer {
+        margin-top: 100px;
+    }
+
+    footer.footer .footerbottompic {
+        max-width: 700px;
+    }
+
+    .footer__social {
+        margin: 30px 0;
+    }
+
+    .ourworks__works .right-pic {
+        right: -60px;
+    }
+
+    .ourworks__works .left-pic {
+        left: -60px;
+    }
+
+    .twentytwenty-wrapper:after {
+        left: -67px;
+    }
+
+    .twentytwenty-wrapper:after {
+        bottom: -32px;
+    }
+
+    .after-before {
+        width: 86.5%;
+    }
+
+    .whoverbox__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+
+    .whoverbox__inf img {
+        width: 30px;
+    }
+
+    .whoverbox__inf span {
+        font-size: 16px;
+    }
+
+    .whoverbox__descr {
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+    .chooseus,
+    .howworking,
+    .formsection,
+    .after-before,
+    .costproject {
+        padding-top: 120px;
+        padding-bottom: 0;
+    }
+}
+
+@media(max-width: 1199.8px) {
+
+    .bigslider,
+    .bigslider__slide.slick-slide {
+        max-height: 500px;
+        min-height: initial;
+    }
+
+    .slide__text h2 {
+        line-height: 70px;
+        font-size: 44px;
+    }
+
+    .mainslider__reddots {
+        width: 450px;
+        height: 450px;
+        bottom: -40px;
+    }
+
+    .bigslider .slick-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bigslider .slick-arrow {
+        right: -19.5px;
+    }
+
+    .bigslider .slick-arrow.slick-next {
+        top: calc(25% + 65px);
+    }
+
+    .bigslider .slick-dots li {
+        margin-right: 15px;
+    }
+
+    .bigslider .slick-dots {
+        left: 4%;
+        bottom: 4%;
+    }
+
+    .choose-content {
+        max-width: 80%;
+    }
+
+    .choose__picbox {
+        width: 70px;
+        height: 70px;
+    }
+
+    .choose__picbox img {
+        max-width: 45px;
+    }
+
+    .choose__textbox {
+        width: calc(100% - 75px);
+    }
+
+    .choose-box {
+        margin-bottom: 50px;
+    }
+
+    .slide__link {
+        margin-top: 70px;
+    }
+
+    .ourworks__works .right-pic,
+    .ourworks__works .left-pic {
+        display: none;
+    }
+
+    .whoverbox__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 24px;
+    }
+
+    .whoverbox__inf img {
+        width: 24px;
+    }
+
+    .whoverbox__descr {
+        margin-bottom: 15px;
+    }
+
+    .howworking__row:after {
+        display: none;
+    }
+
+    .howworking__coltext .step {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .howworking__coltext .title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .howworking__coltext ul {
+        margin-top: 15px;
+    }
+
+    .howworking__coltext ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .howworking__colpic,
+    .howworking__coltext {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .howworking__coltext a {
+        margin-top: 30px;
+    }
+
+    .howworking-sect .howworking__row:nth-child(odd) .howworking__coltext {
+        padding-left: 40px;
+    }
+
+    .howworking__coltext .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .costproject h4 {
+        margin-bottom: 35px;
+    }
+
+    .cost__title,
+    .cost-project.green .cost__title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .cost__btn {
+        width: 90%;
+        height: 46px;
+    }
+
+    .cost__line {
+        font-size: 13px;
+    }
+
+    .cost__descr {
+        margin-bottom: 10px;
+    }
+
+    .cost-project.green,
+    .cost-project {
+        padding: 30px 0 50px 0;
+    }
+
+    .cost__line {
+        padding: 10px 5px;
+    }
+
+
+
+
+
+
+
+    h3 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .slide__link,
+    .howworking__coltext a,
+    .formsection form input[type="submit"],
+    .choose-content>a {
+        width: 250px;
+        height: 46px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1024.8px) {
+    .whoverbox__seemore {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 991.8px) {
+    header.header {
+        height: 60px;
+    }
+
+    .header__logo img {
+        max-width: 170px;
+    }
+
+    .header__nav {
+        left: 40px;
+    }
+
+    .bigslider,
+    .bigslider__slide.slick-slide {
+        height: 400px;
+    }
+
+    .bigslider {
+        width: 100%;
+    }
+
+    .twentytwenty-wrapper:before,
+    .twentytwenty-wrapper:after {
+        display: none;
+    }
+
+    .mainslider__reddots {
+        width: 300px;
+        height: 300px;
+        bottom: -25px;
+        right: 19px;
+    }
+
+    .slide__text h2 {
+        line-height: 60px;
+        font-size: 32px;
+    }
+
+    .header__nav img {
+        width: 22px;
+    }
+
+    .bigslider .slick-arrow {
+        background-size: 16px;
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .work-col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .work-row .work-col:nth-child(n + 5) {
+        display: none;
+    }
+
+    .showmore-work {
+        display: block;
+        text-align: center;
+    }
+
+    .choose-content {
+        max-width: 100%;
+    }
+
+    .howworking__colpic,
+    .howworking__coltext {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .howworking-sect .howworking__row:nth-child(odd) .howworking__coltext {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .howworking-sect .howworking__row:nth-child(even) .howworking__colpic {
+        order: 1;
+    }
+
+    .howworking-sect {
+        width: 100%;
+    }
+
+    .howworking-sect .howworking__row:nth-child(even) .howworking__coltext {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+
+    .formsection form {
+        max-width: 100%;
+    }
+
+    .after-before {
+        width: 100%;
+    }
+
+    .costproject__container .cost-project:first-child {
+        order: 2;
+    }
+
+    .costproject__container .cost-project:nth-child(2) {
+        order: 1;
+    }
+
+    .costproject__container .cost-project:nth-child(3) {
+        order: 3;
+    }
+
+    .costproject__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cost-project {
+        width: 46%;
+        margin: 0 2%;
+    }
+
+    .cost-project.green {
+        width: 50%;
+        margin: 0 15%;
+        margin-bottom: 20px;
+    }
+
+    .cost-project.green,
+    .cost-project {
+        padding: 50px 0 70px 0;
+    }
+
+    .cost__descr {
+        min-height: 65px;
+    }
+
+    .footer__leftbox {
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+
+    .footer__rightbox {
+        -ms-flex: 0 0 65%;
+        flex: 0 0 65%;
+        max-width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__rightboxinfo:first-child {
+        margin: 0;
+    }
+
+    footer.footer .footerbottompic {
+        max-width: 60%;
+    }
+
+
+
+
+
+
+
+    .ourworks__topsect,
+    .howworking h3 {
+        margin-bottom: 30px;
+    }
+
+    .ourworks,
+    .chooseus,
+    .howworking,
+    .formsection,
+    .after-before {
+        padding: 100px 40px 0 40px;
+        box-sizing: border-box;
+    }
+
+    .mainslider {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media(max-width: 767.8px) {
+    .header__nav {
+        display: flex;
+        font-style: italic;
+    }
+
+    .chooseus-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 575.8px) {
+    .header__nav {
+        left: 15px;
+    }
+
+    .mainslider {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mainslider__reddots {
+        right: 0;
+    }
+
+    .bigslider,
+    .bigslider__slide.slick-slide {
+        height: calc(100vh - 60px);
+        max-height: calc(100vh - 60px);
+    }
+
+    .slide__text h2 {
+        line-height: 45px;
+        font-size: 34px;
+    }
+
+    .bigslider .slick-dots {
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .mainslider__reddots {
+        display: none;
+    }
+
+    .cost-project {
+        width: 100%;
+    }
+
+    .work-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .whoverbox__title {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+
+    .whoverbox__descr {
+        margin-bottom: 25px;
+    }
+
+    .workbox__hoverbox .text-right {
+        text-align: center;
+    }
+
+
+
+    .ourworks,
+    .chooseus,
+    .howworking,
+    .formsection,
+    .after-before {
+        padding: 80px 15px 0 15px;
+    }
+
+    .ourworks__topsect {
+        margin-bottom: 45px;
+    }
+
+    .ourworks__topsect p {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+}
