@@ -526,6 +526,9 @@
 }
 
 @media(max-width: 575.8px) {
+
+
+
     .header__nav {
         left: 15px;
     }
@@ -865,6 +868,17 @@
     }
 
 
+}
+
+@media(max-width:414.8px) {
+    .whoverbox__title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .workbox {
+        height: 215px;
+    }
 }
 
 @media(max-width: 365.8px) {
