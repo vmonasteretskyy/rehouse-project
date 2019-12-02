@@ -394,12 +394,6 @@ header.header {
     -moz-transition: opacity 1s;
     -ms-transition: opacity 1s;
     -o-transition: opacity 1s;
-    /*transform: rotate3d(1, 1, 1, 120deg);
-    -webkit-transform: rotate3d(1, 1, 1, 120deg);
-    -moz-transform: rotate3d(1, 1, 1, 120deg);
-    -ms-transform: rotate3d(1, 1, 1, 120deg);
-    -o-transform: rotate3d(1, 1, 1, 120deg);
-    */
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -1428,13 +1422,14 @@ footer.footer .footerbottompic {
 }
 
 /* MENU */
-header.header {
+/* header.header {
     position: fixed;
     width: 100%;
     z-index: 15;
     background-color: #fff;
 }
 
+*/
 .menu-section {
     position: fixed;
     left: 0;
