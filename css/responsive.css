@@ -419,6 +419,10 @@
 }
 
 @media(max-width: 991.8px) {
+    main {
+        padding-top: 60px;
+    }
+
     header.header {
         height: 60px;
     }
