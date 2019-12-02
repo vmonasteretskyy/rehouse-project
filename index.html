@@ -13,6 +13,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/twentytwenty.css">
+    <link rel="stylesheet" href="css/fotorama.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -22,6 +23,20 @@
     <header class="header">
         <span class="header__nav"><img src="image/icons/menu-icon.svg" alt="menu"></span>
         <a href="#" class="header__logo"><img src="image/logo.svg" alt="logo"></a>
+        <!-- <div class="menu-section">
+            <img src="" alt="red dots">
+            <img src="" alt="red dots">
+            <nav>
+                <ul>
+                    <li><a href="">portfolio</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">work process</a></li>
+                    <li><a href="">service packages</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><span>get designer advice</span></li>
+                </ul>
+            </nav>
+        </div> -->
     </header>
 
     <main>
@@ -32,7 +47,7 @@
                     <div class="slide__text">
                         <h2>BEST DESIGN FOR YOU</h2>
                         <p class="subtitle">Your Space will get better.</p>
-                        <a href="#" class="slide__link">get designer advice</a>
+                        <a href="#formsection" class="slide__link">get designer advice</a>
                     </div>
                 </div>
                 <div class="bigslider__slide">
@@ -40,7 +55,7 @@
                     <div class="slide__text">
                         <h2>BEST DESIGN FOR YOU</h2>
                         <p class="subtitle">Your Space will get better.</p>
-                        <a href="#" class="slide__link">get designer advice</a>
+                        <a href="#formsection" class="slide__link">get designer advice</a>
                     </div>
                 </div>
                 <div class="bigslider__slide">
@@ -48,7 +63,7 @@
                     <div class="slide__text">
                         <h2>BEST DESIGN FOR YOU</h2>
                         <p class="subtitle">Your Space will get better.</p>
-                        <a href="#" class="slide__link">get designer advice</a>
+                        <a href="#formsection" class="slide__link">get designer advice</a>
                     </div>
                 </div>
             </div>
@@ -277,6 +292,7 @@
                     </div>
                 </div>
                 <p class="showmore-work"><span>see more works</span></p>
+                <a href="#" class="allworks-link">all works</a>
             </div>
         </section>
 
@@ -346,7 +362,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#">get designer advice</a>
+                <a href="#" class="openmodal">get designer advice</a>
             </div>
         </section>
 
@@ -373,7 +389,7 @@
                                     electrics (if any), heating systems.</li>
                                 <li>- Photo-fixing the initial state of the object.</li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
@@ -406,7 +422,7 @@
                                 <li>- To start work, a prepayment of 10% of the total cost of a full design project is
                                     paid.</li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
@@ -438,7 +454,7 @@
                                 <li>* By the way, the redevelopment service can be ordered separately from the design
                                     project</li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
@@ -462,7 +478,7 @@
                                 <li>- A phased payment takes place here (after the approval of the visualization of each
                                     room).</li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
@@ -488,7 +504,7 @@
                                     can buy furniture
                                     and decor used in the project.</li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
@@ -509,14 +525,14 @@
                                     the project.
                                 </li>
                             </ul>
-                            <a href="#">get designer advice</a>
+                            <a href="#" class="openmodal">get designer advice</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="formsection">
+        <section class="formsection" id="formsection">
             <form action="#">
                 <p class="title">Get a miscalculation of the project design
                     and repair according to your budget</p>
@@ -559,7 +575,7 @@
                         Get all the layout options, 3d models, plans, drawings, estimates and specifications.
                     </p>
                     <p class="cost__line">the price depends on the amount of work</p>
-                    <button class="cost__btn">find out details and price</button>
+                    <button class="cost__btn openmodal-project">find out details and price</button>
                 </div>
                 <div class="cost-project green">
                     <p class="cost__beftitle">PROJECT
@@ -573,7 +589,7 @@
                         consistent
                     </p>
                     <p class="cost__line">the price depends on the amount of work</p>
-                    <button class="cost__btn">find out details and price</button>
+                    <button class="cost__btn openmodal-project">find out details and price</button>
                 </div>
                 <div class="cost-project">
                     <p class="cost__beftitle">PROJECT
@@ -583,11 +599,80 @@
                         Get redevelopment options,
                     </p>
                     <p class="cost__line">the price depends on the amount of work</p>
-                    <button class="cost__btn">find out details and price</button>
+                    <button class="cost__btn openmodal-project">find out details and price</button>
                 </div>
             </div>
         </section>
     </main>
+
+    <div class="modal-section">
+        <div class="modalform-wrap">
+            <form action="#">
+                <span class="close-modal"><img src="image/icons/close-button.svg" alt="close modal window"></span>
+                <p class="title">Get a miscalculation of the project design
+                    and repair according to your budget</p>
+                <div class="controls">
+                    <input type="text" id="name-modal" class="floatLabel" name="name-modal" value="">
+                    <label for="name-modal">Name</label>
+                </div>
+                <div class="controls">
+                    <input type="tel" id="tel-modal" class="floatLabel" name="tel-modal" value="">
+                    <label for="tel-modal">Phone</label>
+                </div>
+                <div class="controls">
+                    <input type="email" id="email-modal" class="floatLabel" name="email-modal" value="">
+                    <label for="email-modal">email</label>
+                </div>
+                <input type="submit" value="get designer advice">
+            </form>
+        </div>
+    </div>
+    <div class="modal-section-proj">
+        <div class="modalform-wrap">
+            <form action="#">
+                <span class="close-modal"><img src="image/icons/close-button.svg" alt="close modal window"></span>
+                <p class="title">INDIVIDUAL</p>
+                <div class="controls">
+                    <input type="text" id="name-modalpr" class="floatLabel" name="name-modalpr" value="">
+                    <label for="name-modalpr">Name</label>
+                </div>
+                <div class="controls">
+                    <input type="tel" id="tel-modalpr" class="floatLabel" name="tel-modalpr" value="">
+                    <label for="tel-modalpr">Phone</label>
+                </div>
+                <div class="controls">
+                    <input type="email" id="email-modalpr" class="floatLabel" name="email-modalpr" value="">
+                    <label for="email-modalpr">email</label>
+                </div>
+                <input type="submit" value="get designer advice">
+            </form>
+        </div>
+    </div>
+    <div class="modal-section-gallery">
+        <div class="modalform-wrap">
+            <div class="modal-gallery">
+                <span class="close-modal"><img src="image/icons/close-button-white.svg" alt="close modal window"></span>
+                <div class="fotorama" data-nav="thumbs" data-width="100%">
+                    <img src="image/work1.png" alt="">
+                    <img src="image/work2.png" alt="">
+                    <img src="image/slide.png" alt="">
+                    <img src="image/work3.png" alt="">
+                    <img src="image/work4.png" alt="">
+                    <img src="image/work5.png" alt="">
+                    <img src="image/work6.png" alt="">
+                    <img src="image/pic1.jpg" alt="">
+                    <img src="image/pic2.png" alt="">
+                    <img src="image/work1.png" alt="">
+                    <img src="image/work2.png" alt="">
+                    <img src="image/slide.png" alt="">
+                    <img src="image/work3.png" alt="">
+                    <img src="image/work4.png" alt="">
+                    <img src="image/work5.png" alt="">
+                    <img src="image/work6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer" id="aaa">
         <div class="footer__container">
@@ -663,6 +748,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
+    <script src="js/fotorama.js"></script>
     <script src="js/common.js"></script>
     <script>
         $(function () {

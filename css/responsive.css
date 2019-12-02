@@ -51,6 +51,30 @@
     }
 
 
+    .modalform-wrap form {
+        max-width: 500px;
+    }
+
+    .modalform-wrap form .title {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .modalform-wrap form .controls input[type="text"],
+    .modalform-wrap form .controls input[type="email"],
+    .modalform-wrap form .controls input[type="tel"] {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .modalform-wrap form .controls {
+        margin-bottom: 20px;
+    }
+
+    .modalform-wrap form input[type="submit"] {
+        margin-top: 30px;
+    }
 }
 
 @media(max-width: 1440.8px) {
@@ -297,11 +321,19 @@
         padding: 10px 5px;
     }
 
+    .modal-section-proj .modalform-wrap form .title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
 
+    .modal-section-gallery {
+        overflow: scroll;
+    }
 
-
-
-
+    .modalform-wrap {
+        min-height: 600px;
+        height: 100%;
+    }
 
     h3 {
         font-size: 38px;
@@ -316,11 +348,29 @@
         height: 46px;
         font-size: 12px;
     }
+
+
 }
 
 @media(max-width: 1024.8px) {
     .whoverbox__seemore {
         font-size: 14px;
+    }
+
+    .modal-section,
+    .modal-section-proj,
+    .modal-section-gallery {
+        overflow: scroll;
+    }
+
+    .modalform-wrap {
+        min-height: 480px;
+        height: 100%;
+    }
+
+    .modal-section-gallery {
+        padding: 40px 0;
+        box-sizing: border-box;
     }
 }
 
@@ -486,6 +536,13 @@
         max-width: 60%;
     }
 
+    .modal-gallery {
+        max-width: 90%;
+    }
+
+    .modal-section-gallery .close-modal {
+        right: 0;
+    }
 
 
 
@@ -510,6 +567,9 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+
+
+
 }
 
 @media(max-width: 767.8px) {
@@ -522,6 +582,39 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .modal-section,
+    .modal-section-proj {
+        overflow: scroll;
+    }
+
+    .modalform-wrap {
+        min-height: 480px;
+        height: 100%;
+    }
+
+}
+
+@media(max-width: 700.8px) and (min-width:576px) {
+    .work-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .whoverbox__title {
+        font-size: 24px;
+        margin-bottom: 25px;
+        line-height: 34px;
+    }
+
+    .whoverbox__seemore {
+        font-size: 18px;
+    }
+
+    .whoverbox__descr {
+        margin-bottom: 25px;
     }
 }
 
@@ -810,21 +903,56 @@
         margin-left: -20px;
     }
 
+    .allworks-link {
+        width: 100%;
+        max-width: 300px;
+        height: 56px;
+        font-size: 14px;
+    }
 
+    .allworks-link {
+        margin-top: 30px;
+    }
 
+    .modalform-wrap form {
+        max-width: 95%;
+    }
 
+    .modalform-wrap form {
+        max-width: 95%;
+        box-sizing: border-box;
+        padding: 40px 20px;
+    }
 
+    .modal-gallery {
+        max-width: 95%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
 
+    .formsection form input[type="submit"],
+    .modalform-wrap form input[type="submit"] {
+        max-width: 100%;
+        font-size: 14px;
+        height: 50px;
+    }
 
+    .modal-section {
+        overflow: scroll;
+    }
 
+    .modalform-wrap {
+        min-height: 480px;
+    }
 
+    .modal-section-proj .modalform-wrap form .title {
+        font-size: 26px;
+    }
 
-
-
-
-
-
-
+    .modal-section-gallery {
+        padding: 0 0;
+        box-sizing: border-box;
+    }
 
 
 
@@ -929,5 +1057,17 @@
 
     .footer__rightboxinfo:nth-child(2) {
         margin-bottom: 80px;
+    }
+
+    .allworks-link {
+        max-width: 270px;
+        height: 50px;
+    }
+}
+
+
+@media(max-height:650px) and (min-width:576px) {
+    .modal-gallery {
+        max-width: 650px;
     }
 }

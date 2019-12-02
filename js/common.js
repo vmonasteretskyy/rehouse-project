@@ -29,15 +29,63 @@ $(document).ready(function () {
         $('.work-row .work-col:nth-child(n + 5)').toggle();
     });
 
+    // scroll to form
+    $(".slide__text").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({ scrollTop: top }, 1000);
+    });
 
+    // modals
+    $('.openmodal').click(function () {
+        event.preventDefault();
+        $('.modal-section').fadeIn();
+    });
 
+    $('.close-modal').click(function () {
+        $('.modal-section').fadeOut();
+    });
 
+    $('.modalform-wrap').on('click', function (e) {
+        if (e.target !== this)
+            return;
 
+        $('.modal-section').fadeOut();
+    });
+    // modal project
+    $('.openmodal-project').click(function () {
+        event.preventDefault();
+        $('.modal-section-proj').fadeIn();
+        let titleText = $(this).parent().children(".cost__title").html();
+        $('.modal-section-proj .modalform-wrap form .title').html(titleText);
+    });
 
+    $('.close-modal').click(function () {
+        $('.modal-section-proj').fadeOut();
+    });
 
+    $('.modalform-wrap').on('click', function (e) {
+        if (e.target !== this)
+            return;
 
+        $('.modal-section-proj').fadeOut();
+    });
+    // gallery modal
+    $('.whoverbox__seemore').click(function () {
+        $('.modal-section-gallery').fadeIn();
+    });
 
+    $('.modal-section-gallery .close-modal').click(function () {
+        $('.modal-section-gallery').fadeOut();
+    });
 
+    $('.modalform-wrap').on('click', function (e) {
+        if (e.target !== this)
+            return;
+
+        $('.modal-section-gallery').fadeOut();
+    });
 
 
 
