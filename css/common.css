@@ -1332,7 +1332,7 @@ footer.footer .footerbottompic {
     height: 100vh;
     background-color: rgba(0, 0, 0, .7);
     display: none;
-    z-index: 2;
+    z-index: 26;
 }
 
 
@@ -1422,14 +1422,12 @@ footer.footer .footerbottompic {
 }
 
 /* MENU */
-/* header.header {
+header.header {
     position: fixed;
     width: 100%;
     z-index: 15;
     background-color: #fff;
 }
-
-*/
 .menu-section {
     position: fixed;
     left: 0;
