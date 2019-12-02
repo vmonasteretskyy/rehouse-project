@@ -499,7 +499,7 @@ header.header {
 
 /* CHOOSE US */
 .chooseus {
-    padding: 140px 24px 110px 24px;
+    padding: 140px 24px 60px 24px;
 }
 
 .chooseus__topsect {
@@ -625,7 +625,7 @@ header.header {
 
 /* HOW WORKING */
 .howworking {
-    padding: 90px 24px 30px 24px;
+    padding: 140px 24px 30px 24px;
     overflow: hidden;
 }
 
@@ -940,7 +940,7 @@ header.header {
 .after-before {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 70px 0 188px 0;
+    padding: 70px 0 88px 0;
 }
 
 .twentytwenty-container {
@@ -1560,11 +1560,11 @@ main {
     padding-top: 120px;
 }
 
-.menu-section {
-    overflow: scroll;
+
+
+.costproject {
+    padding-top: 100px;
 }
-
-
 
 
 

@@ -107,6 +107,10 @@
     main {
         padding-top: 80px;
     }
+
+    .formsection {
+        padding-top: 150px;
+    }
 }
 
 @media(max-width: 1440.8px) {
@@ -407,6 +411,10 @@
 
     .menu-section ul a:after {
         display: none;
+    }
+
+    .menu-section {
+        overflow: scroll;
     }
 }
 

@@ -97,6 +97,22 @@ $(document).ready(function () {
         $('.header__nav >img').toggle();
     });
 
+    // scroll menu
+    $(".menu-section ul li").on("click", "a", function (event) {
+        $('.menu-section').fadeOut();
+        $('.header__nav >img').toggle();
+
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top - 40;
+        $('body,html').animate({ scrollTop: top }, 1000);
+    });
+    $(".header__logo, .footer__logo").on("click", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top - 140;
+        $('body,html').animate({ scrollTop: top }, 1000);
+    });
 
 
     // label animation
