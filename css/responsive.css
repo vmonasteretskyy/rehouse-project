@@ -75,6 +75,38 @@
     .modalform-wrap form input[type="submit"] {
         margin-top: 30px;
     }
+
+    .menu-section {
+        height: calc(100vh - 79px);
+        top: 79px;
+    }
+
+    .menu-section ul a {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 25px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 50px;
+    }
+
+    .ms__rightpic {
+        right: -450px;
+        top: -250px;
+    }
+
+    .ms__leftpic {
+        left: -450px;
+        bottom: -300px;
+    }
+
+    main {
+        padding-top: 80px;
+    }
 }
 
 @media(max-width: 1440.8px) {
@@ -372,6 +404,10 @@
         padding: 40px 0;
         box-sizing: border-box;
     }
+
+    .menu-section ul a:after {
+        display: none;
+    }
 }
 
 @media(max-width: 991.8px) {
@@ -544,6 +580,10 @@
         right: 0;
     }
 
+    .menu-section {
+        height: calc(100vh - 59px);
+        top: 59px;
+    }
 
 
 
@@ -594,6 +634,27 @@
         height: 100%;
     }
 
+
+    .ms__rightpic {
+        right: -523px;
+        top: -380px;
+    }
+
+    .ms__leftpic {
+        left: -494px;
+        bottom: -340px;
+    }
+
+    .menu-section ul a {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .menu-section ul li:last-child span {
+        height: 50px;
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width: 700.8px) and (min-width:576px) {
@@ -619,9 +680,6 @@
 }
 
 @media(max-width: 575.8px) {
-
-
-
     .header__nav {
         left: 15px;
     }
@@ -954,6 +1012,14 @@
         box-sizing: border-box;
     }
 
+    .menu-section img {
+        display: none;
+    }
+
+
+
+
+
 
 
     .choose__textbox .descr {
@@ -1006,6 +1072,19 @@
 
     .workbox {
         height: 215px;
+    }
+
+    .menu-section ul a {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 15px;
+    }
+
+    .menu-section ul li:last-child span {
+        max-width: 100%;
     }
 }
 
@@ -1069,5 +1148,110 @@
 @media(max-height:650px) and (min-width:576px) {
     .modal-gallery {
         max-width: 650px;
+    }
+}
+
+@media (min-width:1025px) and (max-height:780px) {
+    .menu-section ul a {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width:1025px) and (max-height:650px) {
+    .menu-section ul a {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 20px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:1025px) and (max-height:550px) {
+    .menu-section ul a {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 20px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:1025px) and (max-height:480px) {
+    .menu-section ul a {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 15px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:575.8px) and (max-height:500px) {
+    .menu-section ul a {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:815.8px) and (max-height:460px) {
+    .menu-section ul a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 15px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 30px;
+    }
+
+    .menu-section nav {
+        padding: 0 0;
+    }
+}
+
+@media (max-width:815.8px) and (max-height:360px) {
+    .menu-section ul a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .menu-section ul li {
+        margin-bottom: 15px;
+    }
+
+    .menu-section ul li:last-child {
+        margin-top: 30px;
+    }
+
+    .menu-section nav {
+        padding: 30px 0;
     }
 }

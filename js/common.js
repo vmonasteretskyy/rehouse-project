@@ -87,8 +87,15 @@ $(document).ready(function () {
         $('.modal-section-gallery').fadeOut();
     });
 
-
-
+    // menu
+    $('.burger').click(function () {
+        $('.menu-section').fadeIn();
+        $('.header__nav >img').toggle();
+    });
+    $('.burger-close').click(function () {
+        $('.menu-section').fadeOut();
+        $('.header__nav >img').toggle();
+    });
 
 
 
@@ -113,6 +120,18 @@ $(document).ready(function () {
         // just add a class of "floatLabel to the input field!"
         floatLabel(".floatLabel");
     })(jQuery);
+
+    // shadow header
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll > 0) {
+            $('.header').addClass('headshadow');
+        } else {
+            $(".header").removeClass("headshadow");
+        }
+    });
+
 });
 
 

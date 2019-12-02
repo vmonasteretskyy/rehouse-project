@@ -625,7 +625,7 @@ header.header {
 
 /* HOW WORKING */
 .howworking {
-    padding: 110px 24px 130px 24px;
+    padding: 90px 24px 30px 24px;
     overflow: hidden;
 }
 
@@ -789,7 +789,7 @@ header.header {
 
 /* FORM */
 .formsection {
-    padding: 110px 0 130px 0;
+    padding: 230px 0 130px 0;
 }
 
 .formsection form {
@@ -1428,6 +1428,7 @@ header.header {
     z-index: 15;
     background-color: #fff;
 }
+
 .menu-section {
     position: fixed;
     left: 0;
@@ -1436,11 +1437,30 @@ header.header {
     height: calc(100vh - 117px);
     background-color: #fff;
     z-index: 20;
+    overflow: hidden;
+    display: none;
+}
+
+.menu-section nav {
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-    /* display: none; */
+.menu-section img {
+    position: fixed;
+}
+
+.ms__leftpic {
+    left: -425px;
+    bottom: -260px;
+}
+
+.ms__rightpic {
+    right: -425px;
+    top: -150px;
 }
 
 .menu-section ul {
@@ -1451,7 +1471,8 @@ header.header {
 
 .menu-section ul li {
     text-align: center;
-    margin-bottom: 42px;
+    margin-bottom: 35px;
+
 }
 
 .menu-section ul li:last-child {
@@ -1475,6 +1496,17 @@ header.header {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.menu-section ul li:last-child span:hover {
+    background-color: #D0021B;
+    color: #fff;
 }
 
 .menu-section ul a {
@@ -1484,15 +1516,53 @@ header.header {
     line-height: 72px;
     color: #000;
     text-transform: uppercase;
+    position: relative;
 }
 
+.menu-section ul a:after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: #D0021B;
+    display: block;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
+}
 
+.menu-section ul a:hover:after {
+    width: 100%;
+}
 
+header.header {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
 
+header.header.headshadow {
+    box-shadow: 0 2px 3px #ededed
+}
 
+.burger-close {
+    display: none;
+}
 
+main {
+    padding-top: 120px;
+}
 
+.menu-section {
+    overflow: scroll;
+}
 
 
 
