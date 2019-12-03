@@ -512,6 +512,7 @@ header.header {
     margin: 0;
     font-weight: 700;
     color: #D0021B;
+    margin-bottom: 10px;
 }
 
 .chooseus__topsect h3 {
@@ -809,7 +810,7 @@ header.header {
 
 
 .controls {
-    height: 36px;
+    height: auto;
     width: 100%;
     max-width: 517px;
     background-color: #fff;
@@ -896,12 +897,19 @@ header.header {
 
 .controls input[type="text"],
 .controls input[type="email"],
-.controls input[type="tel"] {
+.controls input[type="tel"],
+.controls textarea {
     width: 100%;
     max-width: 517px;
     height: 36px;
     border: none;
     border-bottom: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.controls textarea {
+    resize: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .formsection form input[type="submit"],
@@ -1348,6 +1356,7 @@ footer.footer .footerbottompic {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 
 .modalform-wrap form {
@@ -1584,13 +1593,99 @@ span::selection,
 }
 
 
+/* PORTFOLIO */
+.ourworks.portfoliopage {
+    padding: 50px 24px 0 24px;
+}
+
+.ourworks.portfoliopage .ourworks__topsect {
+    position: relative;
+}
+
+.pagination {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.pagination ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination ul li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    margin: 0 5px;
+}
+
+.pagination ul li a,
+.pagination ul li span {
+    text-decoration: none;
+    color: #666;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.prevpag img,
+.nextpag img {
+    width: 18px;
+}
+
+.pagination ul li a:hover,
+.pagination ul li.active a {
+    color: #D0021B;
+}
+
+.prevpag,
+.nextpag {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.prevpag,
+.nextpag {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.prevpag:hover,
+.nextpag:hover {
+    opacity: .7;
+}
+
+.pagination ul {
+    position: relative;
+}
 
 
 
 
-/* .modal-section-gallery {
-    display: block !important;
-} */
+
+
+
+
+
+
 
 /* #D0021B */
 

@@ -631,6 +631,10 @@
 }
 
 @media(max-width: 767.8px) {
+    .chooseus__topsect .beforetitle-text {
+        margin-bottom: 0;
+    }
+
     .header__nav {
         display: flex;
         font-style: italic;
@@ -1280,5 +1284,11 @@
 
     .menu-section nav {
         padding: 30px 0;
+    }
+}
+
+@media(min-height:900px) and (min-width:1600px) {
+    .modal-gallery {
+        max-width: 1000px;
     }
 }
