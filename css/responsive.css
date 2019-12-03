@@ -604,7 +604,8 @@
         top: 59px;
     }
 
-    .ourworks.portfoliopage .work-row .work-col:nth-child(n + 5) {
+    .ourworks.portfoliopage .work-row .work-col:nth-child(n + 5),
+    .ourworks.portfoliopage .work-row .work-col {
         display: block;
     }
 
