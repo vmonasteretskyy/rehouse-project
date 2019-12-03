@@ -111,6 +111,10 @@
     .formsection {
         padding-top: 150px;
     }
+
+    footer.footer .footerbottompic {
+        bottom: 33px;
+    }
 }
 
 @media(max-width: 1440.8px) {
@@ -385,7 +389,9 @@
         font-size: 12px;
     }
 
-
+    footer.footer .footerbottompic {
+        max-width: 600px;
+    }
 }
 
 @media(max-width: 1024.8px) {
@@ -581,7 +587,7 @@
     }
 
     footer.footer .footerbottompic {
-        max-width: 60%;
+        max-width: 55%;
     }
 
     .modal-gallery {
@@ -969,8 +975,17 @@
     }
 
     footer.footer .footerbottompic {
-        max-width: calc(100% + 40px);
-        margin-left: -20px;
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        bottom: initial;
+        right: initial;
+        margin: 25px auto 0;
+        display: block;
+    }
+
+    footer.footer {
+        padding-bottom: 30px;
     }
 
     .allworks-link {

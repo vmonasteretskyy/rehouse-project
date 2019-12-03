@@ -104,12 +104,12 @@ $(document).ready(function () {
             top = $(id).offset().top - 40;
         $('body,html').animate({ scrollTop: top }, 1000);
     });
-    $(".header__logo, .footer__logo").on("click", function (event) {
-        event.preventDefault();
-        var id = $(this).attr('href'),
-            top = $(id).offset().top - 140;
-        $('body,html').animate({ scrollTop: top }, 1000);
-    });
+    // $(".header__logo, .footer__logo").on("click", function (event) {
+    //     event.preventDefault();
+    //     var id = $(this).attr('href'),
+    //         top = $(id).offset().top - 140;
+    //     $('body,html').animate({ scrollTop: top }, 1000);
+    // });
 
 
     // label animation
