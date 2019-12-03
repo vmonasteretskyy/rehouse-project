@@ -63,7 +63,8 @@
 
     .modalform-wrap form .controls input[type="text"],
     .modalform-wrap form .controls input[type="email"],
-    .modalform-wrap form .controls input[type="tel"] {
+    .modalform-wrap form .controls input[type="tel"],
+    .modalform-wrap form .controls textarea {
         max-width: 450px;
         margin: 0 auto;
     }
@@ -406,7 +407,7 @@
     }
 
     .modalform-wrap {
-        min-height: 480px;
+        min-height: 510px;
         height: 100%;
     }
 
@@ -603,7 +604,9 @@
         top: 59px;
     }
 
-
+    .ourworks.portfoliopage .work-row .work-col:nth-child(n + 5) {
+        display: block;
+    }
 
 
 
@@ -652,7 +655,7 @@
     }
 
     .modalform-wrap {
-        min-height: 480px;
+        min-height: 510px;
         height: 100%;
     }
 
@@ -1092,7 +1095,9 @@
         margin-bottom: 30px;
     }
 
-
+    .pagination ul li {
+        width: 20px;
+    }
 }
 
 @media(max-width:414.8px) {

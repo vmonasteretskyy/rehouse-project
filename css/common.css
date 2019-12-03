@@ -1614,10 +1614,13 @@ span::selection,
 }
 
 .pagination ul li {
-    display: inline-block;
+    display: inline-flex;
     vertical-align: middle;
     width: 25px;
     margin: 0 5px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .pagination ul li a,
@@ -1638,6 +1641,7 @@ span::selection,
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+    display: block;
 }
 
 .prevpag img,
@@ -1657,30 +1661,37 @@ span::selection,
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+
 }
 
-.prevpag,
-.nextpag {
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+.prevpag a {
+    background: url(../image/icons/pag-left-arrow.svg) no-repeat center;
 }
 
-.prevpag:hover,
-.nextpag:hover {
-    opacity: .7;
+.nextpag a {
+    background: url(../image/icons/pag-right-arrow.svg) no-repeat center;
 }
 
 .pagination ul {
     position: relative;
 }
 
+.prevpag a,
+.nextpag a,
+.prevpag a:hover,
+.nextpag a:hover {
+    width: 100%;
+    height: 100%;
+    background-size: 16px !important;
+}
 
+.prevpag a:hover {
+    background: url(../image/icons/pag-left-arrowhov.svg) no-repeat center;
+}
 
-
-
+.nextpag a:hover {
+    background: url(../image/icons/pag-right-arrowhov.svg) no-repeat center;
+}
 
 
 
